@@ -1,0 +1,7 @@
+spring.application:
+  name : logInSpring
+spring:
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/login-spring?serverTimezone=UTC'
+    password: ${PASSWORD}
+    username: ${USERNAME}
